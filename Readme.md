@@ -6,7 +6,18 @@ Simple Kubernetes project
 
 ## Commands
 
-```
+```bash
 kubectl apply -f client-pod.yaml
 kubectl apply -f client-node-port.yaml
 ```
+
+## Status of Object
+
+```bash
+kubectl get pods
+kubectl get services
+```
+
+## Development
+
+[LocalHost](http://localhost:31515/)
